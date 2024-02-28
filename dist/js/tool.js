@@ -254,17 +254,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
     props: {
@@ -273,7 +262,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
             default: false
         },
         href: {
-            type: String
+            type: [String, Object]
         },
         classList: {
             type: Array
