@@ -84,7 +84,9 @@ export default {
         notificationReceived: function (notification) {
             const self = this
 
-            self.loadNotifications()
+            setTimeout(function () {
+                self.loadNotifications()
+            }, 100)
 
             let level = 'info'
             const levels = ['success', 'info', 'error']
