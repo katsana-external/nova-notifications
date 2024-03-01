@@ -86,7 +86,7 @@ export default {
 
             setTimeout(function () {
                 self.loadNotifications()
-            }, 100)
+            }, 500)
 
             let level = 'info'
             const levels = ['success', 'info', 'error']
